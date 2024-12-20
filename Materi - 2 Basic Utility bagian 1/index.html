@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi 2 - basic Utility bagian 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    spacing: {
+                        13: '3.25rem'
+                    },
+                    fontFamily: {
+                        poppins : ['Poppins']
+                    }
+                },
+            },
+        };
+    </script>
+
+    <style type="text/tailwindcss">
+        /* * {
+            border: 1px solid red;
+        } */
+    </style>
+
+</head>
+<body>
+    <h1 class="font-bold text-7xl text-center my-10">Hello everyone, <span class="bg-gradient-to-br from-blue-500 to-teal-400 bg-clip-text text-transparent">Let's learn tailwind</span></h1>
+    
+    <section class="mb-10 bg-gradient-to-br from-indigo-600 via-red-500 to-teal-600">
+        <h2 class="text-3xl text-center">Spacing</h2>
+        <div class="m-13 bg-red-200">Margin</div>
+        <div class="py-8 bg-red-200">Padding</div>
+    </section>
+
+    <section class="mb-10 bg-slate-500">
+        <h2 class="text-3xl text-center">Sizing</h2>
+        <div class="w-32 h-32 bg-yellow-300">Kotak 1</div>
+    </section>
+
+    <section class="mb-96 font-poppins max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-bold">Belajar typhografy di tailwindcss</h2>
+        <div class="mb-4 text-gray-500">by <a href="#" class="text-gray-700 font-semibold">Haikal Irawan</a>, 20 Desember 2024</div>
+        <p class="mb-4">Lorem ipsum dolor sit, amet consectetur <a href="#" class="underline font-semibold text-blue-600">adipisicing elit</a>. Deserunt suscipit voluptatum praesentium officia excepturi cum perspiciatis, laboriosam adipisci fugiat, quam quisquam in dolor cumque architecto quia nemo, alias consequatur facilis officiis! Sunt magni, recusandae soluta laborum pariatur dicta atque magnam quod molestias sequi nihil rem blanditiis ratione? Tenetur, aperiam ex!</p>
+        <blockquote class="mb-4 italic font-extralight text-xl">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque vero perspiciatis iste omnis illum libero eius officia, quaerat laboriosam fugit!"</blockquote>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed esse nisi nulla repellat et assumenda voluptate ex neque optio. Numquam nisi natus ipsum neque sequi dicta tenetur sed explicabo animi.</p>
+    </section>
+</body>
+</html>
