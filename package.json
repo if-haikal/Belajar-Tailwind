@@ -1,15 +1,16 @@
 {
   "name": "belajar-tailwind",
   "version": "1.0.0",
-  "description": "Belajar Tailwind with WPU",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
-    "minify-css": "npx tailwindcss -o ./public/css/final.css --minify"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./tailwind.css -o ./style.css --watch"
   },
-  "author": "if-haikal",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.4.16"
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
